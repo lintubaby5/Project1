@@ -22,7 +22,6 @@ ________________________________________________________________________________
 
 1- Assault:
 
-<<<<<<< HEAD
 Waterfront Communities-The Island:    7,204 entries.
 
 Church-Yonge Corridor:    6,300 entries.
@@ -42,7 +41,6 @@ ________________________________________________________________________________
 
 2- Theft from motor vehicle:
 
-<<<<<<< HEAD
 Kensington-Chinatown:    2,980 entries.
 
 West Humber-Clairville:    2,820 entries.
@@ -62,7 +60,6 @@ ________________________________________________________________________________
 
 3- Breaking and entering:
 
-<<<<<<< HEAD
 Waterfront Communities-The Island:    2,196 entries.
 
 Church-Yonge Corridor:    1,656 entries.
@@ -80,5 +77,3 @@ Bay Street Corridor:	1,305 entries.
 
 <img width="417" alt="bne" src="https://user-images.githubusercontent.com/117491346/217983189-674d5dc7-197c-4f12-9db1-615f302b3c8c.png">
 
-
->>>>>>> 12af632e98421ab159e46aa164a0dd4846e746cd
