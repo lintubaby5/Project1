@@ -3,7 +3,9 @@ This project aimed to investigate the Toronto crime rates. The Toronto Police De
 https://data.torontopolice.on.ca/pages/open-data
 <p>
 <h2>Project Description:</h2>
-This application is written in Python. The user needs to install or run locally in a machine the CSV files. The API key that are available in the URL did not retrieve the full data. With this project you will identify the types of crime that happened in Toronto. The data retrieved in the CSV files are from 2014 to 2022. Data analysis included the top 3 crimes based on the premises type (outside, houses, apartment, commercial, etc) they happened, the timeline for 24 hours trends, the neighbourhoods affected. Finally, predictive data about the expected total number of crimes to happen in 2023 is provided.
+This application is written in Python. The user needs to install or run locally in a machine the CSV files.
+
+With this project we will identify the types of crime that happened in Toronto. The data retrieved in the CSV files are from 2014 to 2022. Data analysis included the top 3 crimes based on the premises type (outside, houses, apartment, commercial, etc) they happened, the occurance, the neighbourhoods affected. Lastly, we also predict the total number of crimes that will happen in 2023.
 <p>
 <h2>How to use:</h2>
 No authentication like passwords or usernames is required. Feel free to give us a thumbs up if you like it.  
@@ -48,11 +50,7 @@ Firstly, the common factor exisitng in all three, is the fact that the highest n
 
 What are the areas in Toronto with the highest crime rates?
 
-To begin, the data was imported from the official Toronto Police website: Link: https://data.torontopolice.on.ca/pages/open-data
-
-First step was to analyze the data and sort it by the total number of crimes for each type of crime.
-
-After sorting, it was found that the crime rates were as follows: 1- Assault: 161,833 entries. 2- Theft from motor vehicle: 76,914 entries. 3- Breaking and entering: 56,466 entries.
+After sorting the data, it was found that the crime rates were as follows: 1- Assault: 161,833 entries. 2- Theft from motor vehicle: 76,914 entries. 3- Breaking and entering: 56,466 entries.
 
 Second step was to figure out the crime rates in Toronto neighbourhoods for each type.
 
