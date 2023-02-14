@@ -21,24 +21,24 @@ No authentication like passwords or usernames is required. Feel free to give us 
 
 
 
-<h2> Break and Enter Crimes </h2>
+<h2> Top 3 Crimes </h2>
 
-![premises_bne_480](https://user-images.githubusercontent.com/119235680/218617846-a41fd403-be4c-408b-beca-001f09130ef3.png)
+![premises_all_480](https://user-images.githubusercontent.com/119235680/218617872-2ab7d26f-d583-45bc-ae69-b2632f6b4a87.png)
 
-<h2> Motor Vehicle Theft  Crimes </h2>
-
-![premises_theft_480](https://user-images.githubusercontent.com/119235680/218617853-1afcd941-645b-4b65-9403-d7ae4d669a66.png)
 
 <h2> Assault  Crimes </h2>
 
 ![premises_assault_480](https://user-images.githubusercontent.com/119235680/218617864-7bee84d1-5bdf-48c7-b4b6-083c39bde28f.png)
 
 
-<h2> Top 3 Crimes </h2>
+<h2> Motor Vehicle Theft  Crimes </h2>
 
-![premises_all_480](https://user-images.githubusercontent.com/119235680/218617872-2ab7d26f-d583-45bc-ae69-b2632f6b4a87.png)
+![premises_theft_480](https://user-images.githubusercontent.com/119235680/218617853-1afcd941-645b-4b65-9403-d7ae4d669a66.png)
 
 
+<h2> Break and Enter Crimes </h2>
+
+![premises_bne_480](https://user-images.githubusercontent.com/119235680/218617846-a41fd403-be4c-408b-beca-001f09130ef3.png)
 
 
 ---------------------------------------------------------------------------------------------
