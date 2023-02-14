@@ -3,31 +3,87 @@ This project aimed to investigate the Toronto crime rates. The Toronto Police De
 https://data.torontopolice.on.ca/pages/open-data
 <p>
 <h2>Project Description:</h2>
-This application is written in Python. The user needs to install or run locally in a machine the CSV files. The API key that are available in the URL did not retrieve the full data. With this project you will identify the types of crime that happened in Toronto. The data retrieved in the CSV files are from 2014 to 2022. Data analysis included the top 3 crimes based on the premises type (outside, houses, apartment, commercial, etc) they happened, the timeline for 24 hours trends, the neighbourhoods affected. Finally, predictive data about the expected total number of crimes to happen in 2023 is provided.
+This application is written in Python. The user needs to install or run locally in a machine the CSV files.
+
+With this project we will identify the types of crime that happened in Toronto. The data retrieved in the CSV files are from 2014 to 2022. Data analysis included the top 3 crimes based on the premises type (outside, houses, apartment, commercial, etc) they happened, the occurance, the neighbourhoods affected. Lastly, we also predict the total number of crimes that will happen in 2023.
 <p>
+<h2>How to use:</h2>
+No authentication like passwords or usernames is required. Feel free to give us a thumbs up if you like it.  
+
+<p>
+<h2>Content:</h2>
+
 <h2>1-  What are the top 3 crimes committed in Toronto? </h2>
+
+At first, we read all the crimes from the API and plot them in a piechart to identify the top 3 crimes.
+The Top 3 Crimes are Assault, Theft from Motor Vehicle and Break and Enter. 
+
+Assaut - 161833
+
+Theft from Motor Vehicle - 76914
+
+Break and Enter - 56466
+
+These crimes are then analysed one by one to reach at a conclusion on which is the safest place, what is the safest time to be in Toronto and to predict the next year's total crimes
+
+![CrimeAnalysis](https://user-images.githubusercontent.com/119901094/218620020-7eb475b5-fc9b-4ac3-889b-887089e96144.png)
 
 ---------------------------------------------------------------------------------------------
 
 <h2>2-  What kind of premises are the most prone to crimes? </h2>
 
+The data analysis showed that the top 3 crimes occurred mainly in the outdoors. Assaults are predominantly in apartments more than the double of houses. Thefts from motor vehicles happened outside followed by houses. Breaks and enters happened in commercial properties and houses.
+
+
+<h2> Top 3 Crimes </h2>
+
+![premises_all_480](https://user-images.githubusercontent.com/119235680/218617872-2ab7d26f-d583-45bc-ae69-b2632f6b4a87.png)
+
+
+<h2> Assault  Crimes </h2>
+
+![premises_assault_480](https://user-images.githubusercontent.com/119235680/218617864-7bee84d1-5bdf-48c7-b4b6-083c39bde28f.png)
+
+
+<h2> Motor Vehicle Theft  Crimes </h2>
+
+![premises_theft_480](https://user-images.githubusercontent.com/119235680/218617853-1afcd941-645b-4b65-9403-d7ae4d669a66.png)
+
+
+<h2> Break and Enter Crimes </h2>
+
+![premises_bne_480](https://user-images.githubusercontent.com/119235680/218617846-a41fd403-be4c-408b-beca-001f09130ef3.png)
+
+
 ---------------------------------------------------------------------------------------------
 
 <h2>3-  What is the relationship between time and crime rates? </h2>
 
+I have analysed the occurance hour of the top 3 crimes: Assault, Motor Vehicle Theft, and Break & Enter
+
+Firstly, the common factor exisitng in all three, is the fact that the highest number of crimes are happen at 12am. After that, as each hour passes, the rate starts to drop. This could be due to lesser people being awake and outdoors. This provides an avenue for those committing the crime to have a lesser chance of getting noticed and caught. What's also interesting to see is that at 12pm, we see a peak of the number of crimes committed across all three.
+
+<h2> Assault Crimes </h2>
+
+![Assault Crimes by the Hour](https://user-images.githubusercontent.com/119235680/218615948-d0d202a0-ffce-40be-a731-bd9301c5f844.png)
+
+
+<h2> Motor Vehicle Theft Crimes </h2>
+
+![Motor Vehicle Theft Crimes by the Hour](https://user-images.githubusercontent.com/119235680/218615992-af82f998-bd08-4194-9442-e40d90bab6ec.png)
+
+
+<h2> Break and Enter Crimes </h2>
+
+![Break and Enter Crimes by the Hour](https://user-images.githubusercontent.com/119235680/218615979-bd70c021-2788-47e9-8e3c-3f450f0dac85.png)
+
+
 ---------------------------------------------------------------------------------------------
 
-<h2>4-  What is the relationship between crimes and different areas in Toronto? </h2>
+<h1>4-  What is the relationship between crimes and different areas in Toronto? </h2>
 
 ---------------------------------------------------------------------------------------------
 
-What are the areas in Toronto with the highest crime rates?
-
-To begin, the data was imported from the official Toronto Police website: Link: https://data.torontopolice.on.ca/pages/open-data
-
-First step was to analyze the data and sort it by the total number of crimes for each type of crime.
-
-After sorting, it was found that the crime rates were as follows: 1- Assault: 161,833 entries. 2- Theft from motor vehicle: 76,914 entries. 3- Breaking and entering: 56,466 entries.
 
 Second step was to figure out the crime rates in Toronto neighbourhoods for each type.
 
@@ -72,9 +128,18 @@ Bay Street Corridor: 1,305 entries.
 
 <h2>5-  How did the crime rates change over the years? </h2>
 
+The trend shows that crimes were increasing till 2020 and there is a significant low number of crimes in 2021 which we say after the Covid-19 outbreak when people are more stay at home
 
-<h2>How to use:</h2>
-No authentication like passwords or usernames is required. Feel free to give us a thumbs up if you like it.  
+
+![YearlyAnalysisTop3crimes](https://user-images.githubusercontent.com/119901094/218620164-446441b4-f1db-4128-92b9-45f37c6404f8.png)
+
+Once the total crime is plotted, a regression line is plotted to predict the next year's (2023) total crimes using Regression Analysis.
+
+
+![YearlyTrendRegression](https://user-images.githubusercontent.com/119901094/218620228-064fd717-1128-4685-8361-7b1b7df82769.png)
+
+The number of crimes in 2023 forecasted as per this info will be 36251.
+
 
 <h2>Credits:</h2>
 This project was made by the jointed efforts of a team of collaborators listed below:
