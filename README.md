@@ -8,6 +8,24 @@ This application is written in Python. The user needs to install or run locally 
 <h2>How to use:</h2>
 No authentication like passwords or usernames is required. Feel free to give us a thumbs up if you like it.  
 
+<p>
+<h2>Content:</h2>
+
+<h1>1-  What are the top 3 crimes committed in Toronto? </h1>
+
+
+<h1>2-  What kind of premises are the most prone to crimes? </h1>
+
+
+<h1>3-  What is the relationship between time and crime rates? </h1>
+
+
+<h1>4-  What is the relationship between crimes and different areas in Toronto? </h1>
+
+
+<h1>5-  How did the crime rates change over the years? </h1>
+
+
 <h2>Credits:</h2>
 This project was made by the jointed efforts of a team of collaborators listed below:
 <ol>Lintu Baby - https://linkedin.com/in/lintu-baby-80906870
