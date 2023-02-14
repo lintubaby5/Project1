@@ -11,19 +11,38 @@ No authentication like passwords or usernames is required. Feel free to give us 
 <p>
 <h2>Content:</h2>
 
-<h1>1-  What are the top 3 crimes committed in Toronto? </h1>
+<h2>1-  What are the top 3 crimes committed in Toronto? </h2>
 
 ---------------------------------------------------------------------------------------------
 
-<h1>2-  What kind of premises are the most prone to crimes? </h1>
+<h2>2-  What kind of premises are the most prone to crimes? </h2>
 
 ---------------------------------------------------------------------------------------------
 
-<h1>3-  What is the relationship between time and crime rates? </h1>
+<h2>3-  What is the relationship between time and crime rates? </h2>
+
+I have analysed the occurance hour of the top 3 crimes: Assault, Motor Vehicle Theft, and Break & Enter
+
+Firstly, the common factor exisitng in all three, is the fact that the highest number of crimes are happen at 12am. After that, as each hour passes, the rate starts to drop. This could be due to lesser people being awake and outdoors. This provides an avenue for those committing the crime to have a lesser chance of getting noticed and caught. What's also interesting to see is that at 12pm, we see a peak of the number of crimes committed across all three.
+
+<h2> Assault Crimes </h2>
+
+![Assault Crimes by the Hour](https://user-images.githubusercontent.com/119235680/218615948-d0d202a0-ffce-40be-a731-bd9301c5f844.png)
+
+
+<h2> Motor Vehicle Theft Crimes </h2>
+
+![Motor Vehicle Theft Crimes by the Hour](https://user-images.githubusercontent.com/119235680/218615992-af82f998-bd08-4194-9442-e40d90bab6ec.png)
+
+
+<h2> Break and Enter Crimes </h2>
+
+![Break and Enter Crimes by the Hour](https://user-images.githubusercontent.com/119235680/218615979-bd70c021-2788-47e9-8e3c-3f450f0dac85.png)
+
 
 ---------------------------------------------------------------------------------------------
 
-<h1>4-  What is the relationship between crimes and different areas in Toronto? </h1>
+<h1>4-  What is the relationship between crimes and different areas in Toronto? </h2>
 
 ---------------------------------------------------------------------------------------------
 
@@ -76,7 +95,7 @@ Bay Street Corridor: 1,305 entries.
 ---------------------------------------------------------------------------------------------
 
 
-<h1>5-  How did the crime rates change over the years? </h1>
+<h2>5-  How did the crime rates change over the years? </h2>
 
 
 <h2>Credits:</h2>
