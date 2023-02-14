@@ -17,8 +17,11 @@ No authentication like passwords or usernames is required. Feel free to give us 
 
 At first, we read all the crimes from the API and plot them in a piechart to identify the top 3 crimes.
 The Top 3 Crimes are Assault, Theft from Motor Vehicle and Break and Enter. 
+
 Assaut - 161833
+
 Theft from Motor Vehicle - 76914
+
 Break and Enter - 56466
 
 These crimes are then analysed one by one to reach at a conclusion on which is the safest place, what is the safest time to be in Toronto and to predict the next year's total crimes
@@ -29,6 +32,7 @@ These crimes are then analysed one by one to reach at a conclusion on which is t
 
 <h2>2-  What kind of premises are the most prone to crimes? </h2>
 
+The data analysis showed that the top 3 crimes occurred mainly in the outdoors. Assaults are predominantly in apartments more than the double of houses. Thefts from motor vehicles happened outside followed by houses. Breaks and enters happened in commercial properties and houses.
 
 
 <h2> Top 3 Crimes </h2>
