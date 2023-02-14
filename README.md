@@ -52,7 +52,7 @@ The data analysis showed that the top 3 crimes occurred mainly in the outdoors. 
 
 <h2> Break and Enter Crimes </h2>
 
-![premises_bne_480](https://user-images.githubusercontent.com/119235680/218617846-a41fd403-be4c-408b-beca-001f09130ef3.png)
+![premises_bne_480](https://user-images.githubusercontent.com/119235680/218617846-a41fd403-be4c-408b-beca-001f09130ef3.png
 
 
 ---------------------------------------------------------------------------------------------
@@ -65,20 +65,20 @@ Firstly, the common factor exisitng in all three, is the fact that the highest n
 
 <h2> Assault Crimes </h2>
 
-![Assault Crimes by the Hour](
-<img width="402" alt="ASSAULT LINE" src="https://user-images.githubusercontent.com/117491346/218629426-6cd0207c-f9cf-4b5f-9ae4-06c273d17132.png">)
+
+<img width="402" alt="ASSAULT LINE" src="https://user-images.githubusercontent.com/117491346/218629426-6cd0207c-f9cf-4b5f-9ae4-06c273d17132.png">
 
 
 <h2> Motor Vehicle Theft Crimes </h2>
 
-![Motor Vehicle Theft Crimes by the Hour](<img width="400" alt="TMV LINE" src="https://user-images.githubusercontent.com/117491346/218629635-be2a1348-d83c-45b9-b29c-437abab780ed.png">
-)
+<img width="400" alt="TMV LINE" src="https://user-images.githubusercontent.com/117491346/218629635-be2a1348-d83c-45b9-b29c-437abab780ed.png">
+
 
 
 <h2> Break and Enter Crimes </h2>
 
-![Break and Enter Crimes by the Hour](<img width="496" alt="BNE LINE" src="https://user-images.githubusercontent.com/117491346/218629595-e54a22b1-9ca5-40bb-a000-c038da7a0215.png">
-)
+<img width="496" alt="BNE LINE" src="https://user-images.githubusercontent.com/117491346/218629595-e54a22b1-9ca5-40bb-a000-c038da7a0215.png">
+
 
 
 ---------------------------------------------------------------------------------------------
@@ -134,10 +134,10 @@ Bay Street Corridor: 1,305 entries.
 The trend shows that crimes were increasing till 2020 and there is a significant low number of crimes in 2021 which we say after the Covid-19 outbreak when people are more stay at home
 
 
-![YearlyAnalysisTop3crimes](<img width="497" alt="YEARLY TFMV " src="https://user-images.githubusercontent.com/117491346/218630002-80d60c22-4500-4e93-9167-9801b05dc15e.png">
+<img width="497" alt="YEARLY TFMV " src="https://user-images.githubusercontent.com/117491346/218630002-80d60c22-4500-4e93-9167-9801b05dc15e.png">
 <img width="502" alt="YEARLY BNE" src="https://user-images.githubusercontent.com/117491346/218630004-e909f1b2-1a6f-42b3-8166-51117eda9383.png">
 <img width="499" alt="YEARLY ASSAULT" src="https://user-images.githubusercontent.com/117491346/218630005-2a9d8f7d-b409-492a-9fc2-072132bab0c2.png">
-)
+
 
 Once the total crime is plotted, a regression line is plotted to predict the next year's (2023) total crimes using Regression Analysis.
 
