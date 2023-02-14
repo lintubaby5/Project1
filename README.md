@@ -15,6 +15,16 @@ No authentication like passwords or usernames is required. Feel free to give us 
 
 <h2>1-  What are the top 3 crimes committed in Toronto? </h2>
 
+At first, we read all the crimes from the API and plot them in a piechart to identify the top 3 crimes.
+The Top 3 Crimes are Assault, Theft from Motor Vehicle and Break and Enter. 
+Assaut - 161833
+Theft from Motor Vehicle - 76914
+Break and Enter - 56466
+
+These crimes are then analysed one by one to reach at a conclusion on which is the safest place, what is the safest time to be in Toronto and to predict the next year's total crimes
+
+![CrimeAnalysis](https://user-images.githubusercontent.com/119901094/218620020-7eb475b5-fc9b-4ac3-889b-887089e96144.png)
+
 ---------------------------------------------------------------------------------------------
 
 <h2>2-  What kind of premises are the most prone to crimes? </h2>
@@ -70,9 +80,6 @@ Firstly, the common factor exisitng in all three, is the fact that the highest n
 
 ---------------------------------------------------------------------------------------------
 
-What are the areas in Toronto with the highest crime rates?
-
-After sorting the data, it was found that the crime rates were as follows: 1- Assault: 161,833 entries. 2- Theft from motor vehicle: 76,914 entries. 3- Breaking and entering: 56,466 entries.
 
 Second step was to figure out the crime rates in Toronto neighbourhoods for each type.
 
@@ -116,6 +123,18 @@ Bay Street Corridor: 1,305 entries.
 
 
 <h2>5-  How did the crime rates change over the years? </h2>
+
+The trend shows that crimes were increasing till 2020 and there is a significant low number of crimes in 2021 which we say after the Covid-19 outbreak when people are more stay at home
+
+
+![YearlyAnalysisTop3crimes](https://user-images.githubusercontent.com/119901094/218620164-446441b4-f1db-4128-92b9-45f37c6404f8.png)
+
+Once the total crime is plotted, a regression line is plotted to predict the next year's (2023) total crimes using Regression Analysis.
+
+
+![YearlyTrendRegression](https://user-images.githubusercontent.com/119901094/218620228-064fd717-1128-4685-8361-7b1b7df82769.png)
+
+The number of crimes in 2023 forecasted as per this info will be 36251.
 
 
 <h2>Credits:</h2>
